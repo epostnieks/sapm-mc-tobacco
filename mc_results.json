@@ -1,0 +1,141 @@
+{
+  "paper_id": "tobacco",
+  "config_file": "pipeline/mc_configs/tobacco.json",
+  "seed": 42,
+  "n_draws": 100000,
+  "n_channels": 6,
+  "correlation_rho": 0.3,
+  "private_payoff_B": 965,
+  "beta_w": {
+    "median": 6.5,
+    "mean": 6.71,
+    "std": 1.57,
+    "p1": 3.95,
+    "p5": 4.53,
+    "p95": 9.59,
+    "p99": 11.34,
+    "ci_90": [
+      4.5,
+      9.6
+    ],
+    "ci_99": [
+      4.0,
+      11.3
+    ],
+    "p_below_1": 0.0,
+    "p_below_1_pct": "0.0000%"
+  },
+  "impossibility_floor": {
+    "floor_value": 3.6,
+    "p_below_floor": 0.00282,
+    "p_below_floor_pct": "0.2820%"
+  },
+  "welfare_cost": {
+    "total_median_B": 6276.0,
+    "total_mean_B": 6478.3,
+    "total_p5_B": 4372.6,
+    "total_p95_B": 9250.6
+  },
+  "pi_sa": {
+    "median_B": 5311.0,
+    "mean_B": 5513.3,
+    "p5_B": 3407.6,
+    "p95_B": 8285.6
+  },
+  "channel_statistics": {
+    "C1_vsl_mortality": {
+      "median": 4892.3,
+      "mean": 5094.2,
+      "p5": 3068.1,
+      "p95": 7786.4,
+      "std": 1469.3
+    },
+    "C2_healthcare": {
+      "median": 421.9,
+      "mean": 422.0,
+      "p5": 378.4,
+      "p95": 465.8,
+      "std": 26.5
+    },
+    "C3_productivity": {
+      "median": 446.0,
+      "mean": 446.0,
+      "p5": 396.0,
+      "p95": 495.9,
+      "std": 30.4
+    },
+    "C4_secondhand_smoke": {
+      "median": 315.1,
+      "mean": 317.1,
+      "p5": 261.0,
+      "p95": 379.8,
+      "std": 36.4
+    },
+    "C5_environmental": {
+      "median": 39.9,
+      "mean": 41.7,
+      "p5": 24.7,
+      "p95": 64.8,
+      "std": 12.6
+    },
+    "C6_governance": {
+      "median": 149.8,
+      "mean": 157.3,
+      "p5": 90.1,
+      "p95": 250.0,
+      "std": 50.1
+    }
+  },
+  "sensitivity_matrix": [
+    {
+      "vsl_multiplier": 0.5,
+      "values": {
+        "dc_0pct": 3.96,
+        "dc_10pct": 3.57,
+        "dc_20pct": 3.17,
+        "dc_30pct": 2.77,
+        "dc_40pct": 2.38
+      }
+    },
+    {
+      "vsl_multiplier": 0.75,
+      "values": {
+        "dc_0pct": 5.23,
+        "dc_10pct": 4.71,
+        "dc_20pct": 4.18,
+        "dc_30pct": 3.66,
+        "dc_40pct": 3.14
+      }
+    },
+    {
+      "vsl_multiplier": 1.0,
+      "values": {
+        "dc_0pct": 6.5,
+        "dc_10pct": 5.85,
+        "dc_20pct": 5.2,
+        "dc_30pct": 4.55,
+        "dc_40pct": 3.9
+      }
+    },
+    {
+      "vsl_multiplier": 1.25,
+      "values": {
+        "dc_0pct": 7.77,
+        "dc_10pct": 6.99,
+        "dc_20pct": 6.22,
+        "dc_30pct": 5.44,
+        "dc_40pct": 4.66
+      }
+    },
+    {
+      "vsl_multiplier": 1.5,
+      "values": {
+        "dc_0pct": 9.04,
+        "dc_10pct": 8.14,
+        "dc_20pct": 7.23,
+        "dc_30pct": 6.33,
+        "dc_40pct": 5.42
+      }
+    }
+  ]
+}
